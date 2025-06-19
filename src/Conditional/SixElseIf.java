@@ -22,6 +22,7 @@ public class SixElseIf {
 			System.out.println("Fail you have to give an exam again !!!");
 		}
 		
+		obj.close();
 	
 	}
 }

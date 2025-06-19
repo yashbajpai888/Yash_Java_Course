@@ -6,7 +6,7 @@ public class Constructor29 {
 
 	//Constructor
 	Constructor29(){
-		empId=101; name="yash";
+		empId=101; name="yash"; 
 	}
 	void show() {
 		System.out.println(empId+" "+name);

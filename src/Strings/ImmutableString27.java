@@ -2,6 +2,9 @@ package Strings;
 
 public class ImmutableString27 {
 	//String is immutable 
+	 void s() {
+		 System.out.println(this);
+	 }
 	public static void main(String[] args) {
 		String str="Yash"; //immutable cannot be changed
 		
@@ -15,5 +18,8 @@ public class ImmutableString27 {
 		System.out.println(str2);
 		//here it's not changed to str it's point using str2
 		//not created new one
+		
+		ImmutableString27 e=new ImmutableString27();
+		e.s();
 	}
 }

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Relational14 {
 	//Relational also known as Comparison
+	//answer in true or false
 	public static void main(String[] args) {
 		int a,b,c;
 		System.out.println("Enter any 2 numbers :");

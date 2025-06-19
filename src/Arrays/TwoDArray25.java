@@ -24,7 +24,7 @@ public class TwoDArray25 {
 		{
 			for(int j=0; j<2 ;j++) 
 			{
-				System.out.println(a[i][j]+" ");;	
+				System.out.print(a[i][j]+" ");;	
 
 			}
 				System.out.println();

@@ -19,7 +19,8 @@ public class AccessSuperConstructor36 {
 		
 	}
 }
-/*this will print both because in the case of default constructor the first line is reserved for default constructor
+/*this will print both because in the case of default constructor the first line is reserved 
+ * for default constructor
   like B(){ super(); which will automatically given by compiler
 */
 /* but if we make parameterized constructor

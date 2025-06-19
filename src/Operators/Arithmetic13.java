@@ -13,7 +13,7 @@ public class Arithmetic13 {
 
 		//addition
 		c=a+b;
-		System.out.println("a+b :"+c);
+		System.out.println("addition a+b :"+c);
 		
 		//substraction
 		c=a-b;
