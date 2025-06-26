@@ -14,7 +14,7 @@ abstract class Abstraction44 //suppose this as bank
 	//Password 123
 	abstract void Deposite();
 	abstract void Withdraw();
-	abstract void checkBal();
+	abstract void CheckBal();
 }
 abstract class BankService extends Abstraction44 {
 	private double bal = 5000;

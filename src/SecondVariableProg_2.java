@@ -17,4 +17,4 @@ public class SecondVariableProg_2 {
 	System.out.println(b);
 	System.out.println(c);	*/
 }
-}
+}	
