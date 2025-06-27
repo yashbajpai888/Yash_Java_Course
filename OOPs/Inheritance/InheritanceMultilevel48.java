@@ -39,6 +39,8 @@ class Mi2 extends Mi1 //sub2
 		c=a%b;
 		System.out.println("Remainder of two Numbers:"+c);
 	}
+}
+class Mi3 extends Mi2{
 	public static void main(String[] args) {
 		Mi2 n1=new Mi2();
 		n1.add();

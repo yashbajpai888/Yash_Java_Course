@@ -1,4 +1,6 @@
 // This program is about variables
+
+
 public class SecondVariableProg_2 {
 	int a = 10; /*instance var it'll inside clss but outside any  methods 
 	 its an class var can only accessed by making an object.*/
