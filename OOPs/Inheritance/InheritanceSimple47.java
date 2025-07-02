@@ -11,7 +11,7 @@ public class InheritanceSimple47  //super class
 	private void primethod() { //this cannot be accessed using sub class
 		System.out.println("yash");
 	}
-	protected void promethod() {
+	protected void promethod() { //this can be accessed because it is protected not private.
 		System.out.println("protected method");
 	}
 }
@@ -29,4 +29,4 @@ class Students extends InheritanceSimple47 //sub class
 	  //obj.primethod();  this will give an error because it is an private method.
 		obj.promethod();//but this can be accessed because this is protected not private.	
 	}
-}
+} 

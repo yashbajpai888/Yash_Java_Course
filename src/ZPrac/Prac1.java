@@ -1,18 +1,26 @@
 package ZPrac;
 
 public class Prac1 { 
-	int a=12; static int b = 14;
-	static{
-		System.out.println(b);
-	}
-	{
-		System.out.println(a);
-		System.out.println(b);
-	}
-	
-	public static void main(String[] args) {
-		int b=20;
-		Prac1 s=new Prac1();
 		
-	} 
+	public static void main(String[] args) {
+		Dog d=new Dog();
+		Cow c=new Cow();
+		d.eat();
+		c.eat();
+	}
+}
+class Dog extends Prac1
+{
+	void eat()
+	{
+		System.out.println("meat");
+	}
+}
+
+class Cow extends Prac1
+{
+	void eat()
+	{
+		System.out.println("Grass");
+	}
 }

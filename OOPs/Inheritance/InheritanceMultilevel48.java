@@ -33,7 +33,7 @@ class Mi1 extends InheritanceMultilevel48 //sub1
 }
 class Mi2 extends Mi1 //sub2
 {
-	void remainder()
+	void modulous()
 	{
 		a=10; b=20;
 		c=a%b;
@@ -47,6 +47,6 @@ class Mi3 extends Mi2{
 		n1.sub();
 		n1.mul();
 		n1.div();
-		n1.remainder();
+		n1.modulous();
 	}
 }

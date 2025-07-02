@@ -61,4 +61,6 @@ class demo
 	o.draw();// this will call the subclass method kyoki vo overriden hai.	
 	}
 }
-*/
+*/ 
+
+

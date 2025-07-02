@@ -6,7 +6,7 @@ public class This40 {
 	{
 		this(10); //this will call parametrized const in default const		
 	}
-	
+		
 	This40(int a){
 		System.out.println(a);
 	}

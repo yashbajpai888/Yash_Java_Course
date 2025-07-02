@@ -31,7 +31,7 @@ class Dog extends Animal
 	}
 	void eat()
 	{
-		System.out.println("meat eating");
+		System.out.println("Meat eating");
 	}
 }
 

@@ -17,7 +17,8 @@ public class ExceptionHandling53
 		*/
 		System.out.println("Main method started ");
 		int a=10, b=0,c;
-		try {
+		try 
+		{
 			c=a/b; //c=10/0 which is not possible
 			System.out.println(c);
 		}

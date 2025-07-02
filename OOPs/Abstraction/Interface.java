@@ -21,6 +21,7 @@ public class Interface implements vehicall
 		System.out.println("stop(): exit key");
 	}
 	public static void main(String[] args) {
-		
+		Interface i=new Interface();
+		i.start(); i.stop();
 	}
 }
