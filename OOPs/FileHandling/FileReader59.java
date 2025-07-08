@@ -1,5 +1,4 @@
 package FileHandling;
-import java.io.*;
 import java.io.FileReader;
 
 //Reading from a file
